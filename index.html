@@ -16,9 +16,8 @@
         <span class="header-text2">A UNITY GAME PROGRAMMER</span>
       </div>
 
-      <a href="#down">
-        <button class="header-button" type="button">MY PORTFOLIO</button>
-      </a>
+      <button class="header-button" type="button" onclick="scrollAndReset()">MY PORTFOLIO</button>
+    
     </header>
 
     <div class="about-container">
@@ -47,6 +46,17 @@
           ><button class="nevigation-button" type="button">INTEREST</button></a
         >
       </div>
+      <script>
+function scrollAndReset() {
+  const element = document.getElementById("down");
+
+  // Action 1: Scroll the main page to this div
+  element.scrollIntoView({ behavior: "smooth", block: "start" });
+
+  // Action 2: Reset the internal scroll of this div to the top
+  element.scrollTop = 0; 
+}
+</script>
       <div class="about-content" id="down">
         <div class="about-section" id="about-resume">
           <div class="about-my-name">
