@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Poorna Rupala | portfolio</title>
@@ -16,8 +16,9 @@
         <span class="header-text2">A UNITY GAME PROGRAMMER</span>
       </div>
 
-      <button class="header-button" type="button" onclick="scrollAndReset()">MY PORTFOLIO</button>
-    
+      <button class="header-button" type="button" onclick="scrollAndReset()">
+        MY PORTFOLIO
+      </button>
     </header>
 
     <div class="about-container">
@@ -31,7 +32,7 @@
         <a href="#about-resume"
           ><button class="nevigation-button" type="button">ABOUT</button></a
         >
-        <a href="#about-experience" 
+        <a href="#about-experience"
           ><button class="nevigation-button" type="button">
             EXPERIENCE
           </button></a
@@ -46,17 +47,7 @@
           ><button class="nevigation-button" type="button">INTEREST</button></a
         >
       </div>
-      <script>
-function scrollAndReset() {
-  const element = document.getElementById("down");
 
-  // Action 1: Scroll the main page to this div
-  element.scrollIntoView({ behavior: "smooth", block: "start" });
-
-  // Action 2: Reset the internal scroll of this div to the top
-  element.scrollTop = 0; 
-}
-</script>
       <div class="about-content" id="down">
         <div class="about-section" id="about-resume">
           <div class="about-my-name">
@@ -67,9 +58,17 @@ function scrollAndReset() {
             >Game developer</span
           >
           <p>
-           I am a graduate of Gujarat Technological University, Rajkot, with experience in leveraging agile development frameworks to deliver robust and efficient code for high-level game development. I have a strong command of Unity3D, C#, API integration, socket connections, sound and animation systems, ad integration, multiplayer functionality, shaders, and particle systems. My work spans game development projects involving AI, UI design, optimization, VR/AR, and other advanced technologies. I am currently seeking professional opportunities to apply and expand my skills in development.
+            I am a graduate of Gujarat Technological University, Rajkot, with
+            experience in leveraging agile development frameworks to deliver
+            robust and efficient code for high-level game development. I have a
+            strong command of Unity3D, C#, API integration, socket connections,
+            sound and animation systems, ad integration, multiplayer
+            functionality, shaders, and particle systems. My work spans game
+            development projects involving AI, UI design, optimization, VR/AR,
+            and other advanced technologies. I am currently seeking professional
+            opportunities to apply and expand my skills in development.
           </p>
-          <a href="files/LatestResume.pdf" download="LatestResume">
+          <a href="files/Resume.pdf" download="Resume">
             <button class="download-button" type="button">
               <img
                 class="download-img"
@@ -92,23 +91,38 @@ function scrollAndReset() {
                 <ul>
                   <li>
                     <span class="game-name"> Win Clinq (Android): </span>
-                   Developed a 2D real-money quiz game with
-                   <ul>
-                       <li> Real-time socket-based multiplayer connectivity - using Socket.IO</li>
-                       <li> Dynamic question generation and betting mechanics </li>
-                       <li> Live answer validation and win/loss calculation </li>
-                   </ul>
+                    Developed a 2D real-money quiz game with
+                    <ul>
+                      <li>
+                        Real-time socket-based multiplayer connectivity - using
+                        Socket.IO
+                      </li>
+                      <li>Dynamic question generation and betting mechanics</li>
+                      <li>Live answer validation and win/loss calculation</li>
+                    </ul>
                   </li>
 
                   <li>
-                    <span class="game-name"> Carrom (Android) : </span>Developed 2D Carrom Game with
+                    <span class="game-name"> Carrom (Android) : </span>Developed
+                    2D Carrom Game with
                     <ul>
-                       <li> Human vs Human and Human vs AI modes</li>
-                       <li> AI target selection based on clear paths from striker to holes</li>
-                       <li> Three AI difficulty levels with adjustable accuracy and randomness</li>
-                       <li> Physics-based gameplay using Rigidbody2D and CircleCollider2D for realistic coin movement</li>
-                       <li>Angle and force calculations for strategic AI shots</li>
-                     </ul>
+                      <li>Human vs Human and Human vs AI modes</li>
+                      <li>
+                        AI target selection based on clear paths from striker to
+                        holes
+                      </li>
+                      <li>
+                        Three AI difficulty levels with adjustable accuracy and
+                        randomness
+                      </li>
+                      <li>
+                        Physics-based gameplay using Rigidbody2D and
+                        CircleCollider2D for realistic coin movement
+                      </li>
+                      <li>
+                        Angle and force calculations for strategic AI shots
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
@@ -124,14 +138,27 @@ function scrollAndReset() {
               <div class="company-projects">
                 <ul>
                   <li>
-                    <span class="game-name"> Metaverse city (WebGL) : </span>                  
+                    <span class="game-name"> Metaverse city (WebGL) : </span>
                     Developed 3D Interactive Virtual City with:
                     <ul>
-                    <li>Interactive locations including an NFT museum, car showroom, and fashion store</li>
-                    <li>WebGL-based 3D rendering for browser accessibility</li>
-                    <li>User navigation and exploration with camera controls</li>
-                    <li>Integration of virtual assets like 3D models, textures, and NFTs for immersive experience</li>
-                    <li>Optimized performance for smooth real-time interaction in a web environment</li>
+                      <li>
+                        Interactive locations including an NFT museum, car
+                        showroom, and fashion store
+                      </li>
+                      <li>
+                        WebGL-based 3D rendering for browser accessibility
+                      </li>
+                      <li>
+                        User navigation and exploration with camera controls
+                      </li>
+                      <li>
+                        Integration of virtual assets like 3D models, textures,
+                        and NFTs for immersive experience
+                      </li>
+                      <li>
+                        Optimized performance for smooth real-time interaction
+                        in a web environment
+                      </li>
                     </ul>
                   </li>
 
@@ -139,89 +166,193 @@ function scrollAndReset() {
                     <span class="game-name">Meta-VR (not completed) : </span>
                     Developed Meta-VR 3D VR Metaverse City with
                     <ul>
-                        <li>Immersive VR environment compatible with VR headsets (Oculus)</li>
-                        <li>Explorable 3D city layout including streets, buildings, and interactive zones</li>
-                        <li>Integration of VR navigation controls for user movement and object interaction</li>
-                        <li>3D asset integration for realistic buildings, objects, and virtual items   </li>
-                    </ul>                
+                      <li>
+                        Immersive VR environment compatible with VR headsets
+                        (Oculus)
+                      </li>
+                      <li>
+                        Explorable 3D city layout including streets, buildings,
+                        and interactive zones
+                      </li>
+                      <li>
+                        Integration of VR navigation controls for user movement
+                        and object interaction
+                      </li>
+                      <li>
+                        3D asset integration for realistic buildings, objects,
+                        and virtual items
+                      </li>
+                    </ul>
                   </li>
 
                   <li>
-                    <span class="game-name">NFT Gallery (WebGL) : </span>Developed Interactive NFT gallery with
-                        <ul>
-                            <li>WebGL-based 3D gallery accessible via web browsers</li>
-                            <li>Integration with MetaMask wallet for NFT transactions (buy/sell)</li>
-                            <li>Interactive NFT displays for exploring digital art in 3D space</li>
-                            <li>User navigation with smooth camera controls and object interaction</li>
-                            <li>Secure blockchain transactions for ownership verification</li>
-                            <li>Optimized performance for real-time rendering in browsers</li>
-                        </ul>
+                    <span class="game-name">NFT Gallery (WebGL) : </span
+                    >Developed Interactive NFT gallery with
+                    <ul>
+                      <li>
+                        WebGL-based 3D gallery accessible via web browsers
+                      </li>
+                      <li>
+                        Integration with MetaMask wallet for NFT transactions
+                        (buy/sell)
+                      </li>
+                      <li>
+                        Interactive NFT displays for exploring digital art in 3D
+                        space
+                      </li>
+                      <li>
+                        User navigation with smooth camera controls and object
+                        interaction
+                      </li>
+                      <li>
+                        Secure blockchain transactions for ownership
+                        verification
+                      </li>
+                      <li>
+                        Optimized performance for real-time rendering in
+                        browsers
+                      </li>
+                    </ul>
                   </li>
 
                   <li>
-                    <span class="game-name">MetaWheel (Android) : </span>Developed 3D Car Racing Game with
-                        <ul>
-                            <li>Realistic 3D racing environment with tracks, vehicles, and physics-based driving</li>
-                            <li>Multiple gameplay modes including solo races and challenges</li>
-                            <li>Physics and controls implemented for smooth driving and collision detection</li>
-                            <li>Optimized performance for mobile devices to ensure smooth gameplay</li>
-                        </ul>
+                    <span class="game-name">MetaWheel (Android) : </span
+                    >Developed 3D Car Racing Game with
+                    <ul>
+                      <li>
+                        Realistic 3D racing environment with tracks, vehicles,
+                        and physics-based driving
+                      </li>
+                      <li>
+                        Multiple gameplay modes including solo races and
+                        challenges
+                      </li>
+                      <li>
+                        Physics and controls implemented for smooth driving and
+                        collision detection
+                      </li>
+                      <li>
+                        Optimized performance for mobile devices to ensure
+                        smooth gameplay
+                      </li>
+                    </ul>
                   </li>
 
                   <li>
-                    <span class="game-name">To the moon (not completed) : </span>Developed 3D Infinity runner-style game with
-                        <ul>
-                            <li>Player progression towards the moon navigating through pillars and obstacles</li>
-                            <li>3D environment with dynamic obstacles for increasing challenge</li>
-                            <li>Player controls and physics-based movement for smooth gameplay</li>
-                            <li>Procedural obstacle generation to ensure endless and engaging gameplay</li>
-                            <li>scoring system, power-ups, and optimization for mobile devices</li>
-                        </ul>
+                    <span class="game-name">To the moon (not completed) : </span
+                    >Developed 3D Infinity runner-style game with
+                    <ul>
+                      <li>
+                        Player progression towards the moon navigating through
+                        pillars and obstacles
+                      </li>
+                      <li>
+                        3D environment with dynamic obstacles for increasing
+                        challenge
+                      </li>
+                      <li>
+                        Player controls and physics-based movement for smooth
+                        gameplay
+                      </li>
+                      <li>
+                        Procedural obstacle generation to ensure endless and
+                        engaging gameplay
+                      </li>
+                      <li>
+                        scoring system, power-ups, and optimization for mobile
+                        devices
+                      </li>
+                    </ul>
                   </li>
 
                   <li>
                     <span class="game-name">Crypto driller (Android): </span>
-                     Developed 2D Hyper-Casual Game with
-                        <ul>
-                            <li>Gameplay mechanics: drill through land to collect points while avoiding obstacles</li>
-                            <li>obstacles and hazard patterns</li>
-                            <li>Score system, power-ups and Optimization</li>
-                        </ul>
+                    Developed 2D Hyper-Casual Game with
+                    <ul>
+                      <li>
+                        Gameplay mechanics: drill through land to collect points
+                        while avoiding obstacles
+                      </li>
+                      <li>obstacles and hazard patterns</li>
+                      <li>Score system, power-ups and Optimization</li>
+                    </ul>
                   </li>
 
                   <li>
-                    <span class="game-name">Cyber Thief (Android) : </span>Developed Cyber Thief 2D Hyper-Casual Game with
-                        <ul>
-                            <li>Gameplay mechanics: players navigate a thief through levels avoiding obstacles and collecting points</li>
-                            <li>2D environment with dynamic obstacles and hazards</li>
-                            <li>Smooth movement for character and collision detection</li>
-                            <li>Progressive difficulty as the player advances through levels</li>
-                            <li>Mobile optimization for responsive controls and smooth performance on Android devices</li>
-                        </ul>
+                    <span class="game-name">Cyber Thief (Android) : </span
+                    >Developed Cyber Thief 2D Hyper-Casual Game with
+                    <ul>
+                      <li>
+                        Gameplay mechanics: players navigate a thief through
+                        levels avoiding obstacles and collecting points
+                      </li>
+                      <li>2D environment with dynamic obstacles and hazards</li>
+                      <li>
+                        Smooth movement for character and collision detection
+                      </li>
+                      <li>
+                        Progressive difficulty as the player advances through
+                        levels
+                      </li>
+                      <li>
+                        Mobile optimization for responsive controls and smooth
+                        performance on Android devices
+                      </li>
+                    </ul>
                   </li>
 
                   <li>
-                    <span class="game-name">Ski shooter (Android) : </span>Developed Ski Shooter 2D Hyper-Casual Game with
-                        <ul>
-                            <li>Gameplay mechanics: player skis forward while shooting targets to score points</li>
-                            <li>2D environment with obstacles, moving targets, and hazards</li>
-                            <li>Smooth player movement for skiing and shooting actions</li>
-                            <li>Progressive difficulty with increasing speed and more targets as the player advances</li>
-                            <li>Mobile optimization for responsive controls and smooth performance on Android devices</li>
-                        </ul>
+                    <span class="game-name">Ski shooter (Android) : </span
+                    >Developed Ski Shooter 2D Hyper-Casual Game with
+                    <ul>
+                      <li>
+                        Gameplay mechanics: player skis forward while shooting
+                        targets to score points
+                      </li>
+                      <li>
+                        2D environment with obstacles, moving targets, and
+                        hazards
+                      </li>
+                      <li>
+                        Smooth player movement for skiing and shooting actions
+                      </li>
+                      <li>
+                        Progressive difficulty with increasing speed and more
+                        targets as the player advances
+                      </li>
+                      <li>
+                        Mobile optimization for responsive controls and smooth
+                        performance on Android devices
+                      </li>
+                    </ul>
                   </li>
 
                   <li>
                     <span class="game-name"
-                      >Falling Floki (Android, IOS) : </span>Developed Falling Floki 3D Level-Based Game with
-                        <ul>
-                            <li>Gameplay mechanics: player hangs from ropes attached to walls and falls to collect points</li>
-                            <li>Multiple levels with increasing difficulty, obstacles, and challenges</li>
-                            <li>Physics-based movement for swinging, falling, and collisions in a 3D environment</li>
-                            <li>Score system to track player performance per level</li>
-                            <li>Cross-platform deployment on Android and iOS</li>
-                            <li>Optimized performance for smooth gameplay on mobile devices</li>
-                        </ul>
+                      >Falling Floki (Android, IOS) : </span
+                    >Developed Falling Floki 3D Level-Based Game with
+                    <ul>
+                      <li>
+                        Gameplay mechanics: player hangs from ropes attached to
+                        walls and falls to collect points
+                      </li>
+                      <li>
+                        Multiple levels with increasing difficulty, obstacles,
+                        and challenges
+                      </li>
+                      <li>
+                        Physics-based movement for swinging, falling, and
+                        collisions in a 3D environment
+                      </li>
+                      <li>
+                        Score system to track player performance per level
+                      </li>
+                      <li>Cross-platform deployment on Android and iOS</li>
+                      <li>
+                        Optimized performance for smooth gameplay on mobile
+                        devices
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
@@ -239,49 +370,109 @@ function scrollAndReset() {
                     <span class="game-name">Car Crash (Android, IOS) : </span>
                   </li>
                   <li>
-                    <span class="game-name">Love Balls (Android) : </span>Developed Love Balls 2D Level-Based Brain Game with
-                        <ul>
-                            <li>Gameplay mechanics: two balls must meet each other to complete each level</li>
-                            <li>Multiple levels with increasing difficulty and new obstacles</li>
-                            <li>Physics-based interactions for realistic ball movement and collisions</li>
-                            <li>Level design challenges that encourage problem-solving and strategy</li>
-                            <li>Score and progress tracking per level</li>
-                            <li>Optimized performance for smooth gameplay on Android devices</li>
-                        </ul>
+                    <span class="game-name">Love Balls (Android) : </span
+                    >Developed Love Balls 2D Level-Based Brain Game with
+                    <ul>
+                      <li>
+                        Gameplay mechanics: two balls must meet each other to
+                        complete each level
+                      </li>
+                      <li>
+                        Multiple levels with increasing difficulty and new
+                        obstacles
+                      </li>
+                      <li>
+                        Physics-based interactions for realistic ball movement
+                        and collisions
+                      </li>
+                      <li>
+                        Level design challenges that encourage problem-solving
+                        and strategy
+                      </li>
+                      <li>Score and progress tracking per level</li>
+                      <li>
+                        Optimized performance for smooth gameplay on Android
+                        devices
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    <span class="game-name">Jump game (Android) : </span>Developed Jump Game 2D Hyper-Casual Game with
-                        <ul>
-                            <li>Gameplay mechanics: player controls a balloon moving upward to collect points while avoiding obstacles</li>
-                            <li>2D environment with dynamic obstacles and hazards</li>
-                            <li>Smooth balloon movement and collision detection</li>
-                            <li>Progressive difficulty as obstacles increase in number and complexity</li>
-                            <li>Score tracking to measure player performance</li>
-                            <li>Mobile optimization for smooth and responsive gameplay on Android devices</li>
-                        </ul>
+                    <span class="game-name">Jump game (Android) : </span
+                    >Developed Jump Game 2D Hyper-Casual Game with
+                    <ul>
+                      <li>
+                        Gameplay mechanics: player controls a balloon moving
+                        upward to collect points while avoiding obstacles
+                      </li>
+                      <li>2D environment with dynamic obstacles and hazards</li>
+                      <li>Smooth balloon movement and collision detection</li>
+                      <li>
+                        Progressive difficulty as obstacles increase in number
+                        and complexity
+                      </li>
+                      <li>Score tracking to measure player performance</li>
+                      <li>
+                        Mobile optimization for smooth and responsive gameplay
+                        on Android devices
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    <span class="game-name">Blocky shooter (Android) : </span>Developed Blocky Shooter 3D Level-Based Shooter Game with
-                        <ul>
-                            <li>Gameplay mechanics: player shoots enemies to complete levels</li>
-                            <li>3D environment with multiple obstacles and shooting challenges</li>
-                            <li>Level progression with increasing difficulty and complex enemy patterns</li>
-                            <li>Physics-based shooting mechanics for projectile movement and collisions</li>
-                            <li>Score and progress tracking per level</li>
-                            <li>Mobile optimization for smooth gameplay and responsive controls on Android devices</li>
-                        </ul>
+                    <span class="game-name">Blocky shooter (Android) : </span
+                    >Developed Blocky Shooter 3D Level-Based Shooter Game with
+                    <ul>
+                      <li>
+                        Gameplay mechanics: player shoots enemies to complete
+                        levels
+                      </li>
+                      <li>
+                        3D environment with multiple obstacles and shooting
+                        challenges
+                      </li>
+                      <li>
+                        Level progression with increasing difficulty and complex
+                        enemy patterns
+                      </li>
+                      <li>
+                        Physics-based shooting mechanics for projectile movement
+                        and collisions
+                      </li>
+                      <li>Score and progress tracking per level</li>
+                      <li>
+                        Mobile optimization for smooth gameplay and responsive
+                        controls on Android devices
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <span class="game-name">Fun shooter (Android) : </span>
                     Developed Fun Shooter 2D Infinite Shooter Game with
-                        <ul>
-                            <li>Gameplay mechanics: player shoots enemies continuously while avoiding obstacles</li>
-                            <li>Infinite gameplay loop with escalating difficulty over time</li>
-                            <li>2D environment with dynamic enemies, obstacles, and power-ups</li>
-                            <li>Physics-based projectile movement for accurate shooting and collision detection</li>
-                            <li>Score tracking and leaderboard system to measure player performance</li>
-                            <li>Mobile optimization for smooth gameplay and responsive controls on Android devices</li>
-                        </ul>
+                    <ul>
+                      <li>
+                        Gameplay mechanics: player shoots enemies continuously
+                        while avoiding obstacles
+                      </li>
+                      <li>
+                        Infinite gameplay loop with escalating difficulty over
+                        time
+                      </li>
+                      <li>
+                        2D environment with dynamic enemies, obstacles, and
+                        power-ups
+                      </li>
+                      <li>
+                        Physics-based projectile movement for accurate shooting
+                        and collision detection
+                      </li>
+                      <li>
+                        Score tracking and leaderboard system to measure player
+                        performance
+                      </li>
+                      <li>
+                        Mobile optimization for smooth gameplay and responsive
+                        controls on Android devices
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
@@ -297,15 +488,33 @@ function scrollAndReset() {
               <div class="company-projects">
                 <ul>
                   <li>
-                    <span class="game-name">Encompass (Android) : </span>Developed Encompass 2D Hyper-Casual Game with
-                        <ul>
-                            <li>Gameplay mechanics: player controls a ball that jumps through rotating rings to collect points</li>
-                            <li>2D environment with dynamic rings, obstacles, and hazards</li>
-                            <li>Physics-based jumping mechanics for smooth and responsive movement</li>
-                            <li>Progressive difficulty with faster rotations and tighter gaps as levels progress</li>
-                            <li>Score tracking system to measure player performance</li>
-                            <li>Optimized performance for smooth gameplay on Android devices</li>
-                        </ul>
+                    <span class="game-name">Encompass (Android) : </span
+                    >Developed Encompass 2D Hyper-Casual Game with
+                    <ul>
+                      <li>
+                        Gameplay mechanics: player controls a ball that jumps
+                        through rotating rings to collect points
+                      </li>
+                      <li>
+                        2D environment with dynamic rings, obstacles, and
+                        hazards
+                      </li>
+                      <li>
+                        Physics-based jumping mechanics for smooth and
+                        responsive movement
+                      </li>
+                      <li>
+                        Progressive difficulty with faster rotations and tighter
+                        gaps as levels progress
+                      </li>
+                      <li>
+                        Score tracking system to measure player performance
+                      </li>
+                      <li>
+                        Optimized performance for smooth gameplay on Android
+                        devices
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <span class="game-name"
@@ -314,51 +523,120 @@ function scrollAndReset() {
                     This is a 3D Game based on movie character Mowgly.
                   </li>
                   <li>
-                    <span class="game-name">Dog Runner (Android) : </span>Developed Dog Runner 2D Hyper-Casual Platformer Game with
-                        <ul>
-                            <li>Gameplay mechanics: player controls a dog running to collect points while avoiding obstacles</li>
-                            <li>2D environment with platforms, hazards, and moving obstacle</li>
-                            <li>Dog movement for running and collision detection</li>
-                            <li>Progressive difficulty with faster pace and more complex obstacle patterns as the player advances</li>
-                            <li>Score tracking system to measure performance and encourage replayability</li>
-                            <li>Optimized performance for smooth gameplay and responsive controls on Android devices</li>
-                        </ul>
+                    <span class="game-name">Dog Runner (Android) : </span
+                    >Developed Dog Runner 2D Hyper-Casual Platformer Game with
+                    <ul>
+                      <li>
+                        Gameplay mechanics: player controls a dog running to
+                        collect points while avoiding obstacles
+                      </li>
+                      <li>
+                        2D environment with platforms, hazards, and moving
+                        obstacle
+                      </li>
+                      <li>Dog movement for running and collision detection</li>
+                      <li>
+                        Progressive difficulty with faster pace and more complex
+                        obstacle patterns as the player advances
+                      </li>
+                      <li>
+                        Score tracking system to measure performance and
+                        encourage replayability
+                      </li>
+                      <li>
+                        Optimized performance for smooth gameplay and responsive
+                        controls on Android devices
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <span class="game-name">Dinosaurs AR (Android) : </span>
-                    Developed Dinosaurs AR Marker-Based Augmented Reality Project with
-                        <ul>
-                            <li>Marker-based AR: displays 3D dinosaur models when a marker is detected by the camera</li>
-                            <li>Interactive 3D models with animations and scaling capabilities</li>
-                            <li>AR functionality implemented using ARCore and Unity</li>
-                            <li>Real-time tracking for marker recognition and model placement</li>
-                            <li>Mobile optimization for smooth AR performance on Android devices</li>
-                            <li>User engagement features: rotate, zoom, view and animate dinosaurs from different angles</li>
-                        </ul>
+                    Developed Dinosaurs AR Marker-Based Augmented Reality
+                    Project with
+                    <ul>
+                      <li>
+                        Marker-based AR: displays 3D dinosaur models when a
+                        marker is detected by the camera
+                      </li>
+                      <li>
+                        Interactive 3D models with animations and scaling
+                        capabilities
+                      </li>
+                      <li>
+                        AR functionality implemented using ARCore and Unity
+                      </li>
+                      <li>
+                        Real-time tracking for marker recognition and model
+                        placement
+                      </li>
+                      <li>
+                        Mobile optimization for smooth AR performance on Android
+                        devices
+                      </li>
+                      <li>
+                        User engagement features: rotate, zoom, view and animate
+                        dinosaurs from different angles
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <span class="game-name">Car AR (Android) : </span>
                     Developed Car AR Marker-Based Augmented Reality Project with
-                        <ul>
-                            <li>Marker-based AR: displays 3D Car models when a marker is detected by the camera</li>
-                            <li>Interactive 3D models with animations and scaling capabilities</li>
-                            <li>AR functionality implemented using ARCore and Unity</li>
-                            <li>Real-time tracking for marker recognition and model placement</li>
-                            <li>Mobile optimization for smooth AR performance on Android devices</li>
-                            <li>User engagement features: rotate, zoom, view and animate Cars from different angles</li>
-                        </ul>
+                    <ul>
+                      <li>
+                        Marker-based AR: displays 3D Car models when a marker is
+                        detected by the camera
+                      </li>
+                      <li>
+                        Interactive 3D models with animations and scaling
+                        capabilities
+                      </li>
+                      <li>
+                        AR functionality implemented using ARCore and Unity
+                      </li>
+                      <li>
+                        Real-time tracking for marker recognition and model
+                        placement
+                      </li>
+                      <li>
+                        Mobile optimization for smooth AR performance on Android
+                        devices
+                      </li>
+                      <li>
+                        User engagement features: rotate, zoom, view and animate
+                        Cars from different angles
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <span class="game-name">Bug Batcher VR (Android) : </span>
-                   Developed Bug Batcher VR Virtual Reality Game with
-                        <ul>
-                            <li>VR gameplay mechanics: player kills bugs by aiming with the focus point of VR glasses</li>
-                            <li>3D environment with animated bug targets and dynamic movement</li>
-                            <li>VR implementation using Vuforia SDK for tracking and interaction</li>
-                            <li>Interactive targeting system using the user’s gaze for aiming</li>
-                            <li>Score tracking and progressive difficulty as bugs become faster and more numerous</li>
-                            <li>Mobile optimization for smooth VR performance on Android devices</li>
-                        </ul>
+                    Developed Bug Batcher VR Virtual Reality Game with
+                    <ul>
+                      <li>
+                        VR gameplay mechanics: player kills bugs by aiming with
+                        the focus point of VR glasses
+                      </li>
+                      <li>
+                        3D environment with animated bug targets and dynamic
+                        movement
+                      </li>
+                      <li>
+                        VR implementation using Vuforia SDK for tracking and
+                        interaction
+                      </li>
+                      <li>
+                        Interactive targeting system using the user’s gaze for
+                        aiming
+                      </li>
+                      <li>
+                        Score tracking and progressive difficulty as bugs become
+                        faster and more numerous
+                      </li>
+                      <li>
+                        Mobile optimization for smooth VR performance on Android
+                        devices
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
@@ -433,20 +711,28 @@ function scrollAndReset() {
             Apart from programming I like solving mathematical and logical
             problems and I am always curious to learn new concepts. My hobbies
             are listening to music and watching fantasy and sci-fi movies and
-            dramas. Also like to explore new dimentions of life, like to know about new people and their thought process to achieve thier goals, and aspirations.
+            dramas. Also like to explore new dimentions of life, like to know
+            about new people and their thought process to achieve thier goals,
+            and aspirations.
           </span>
         </div>
       </div>
     </div>
-
-   <!-- <div class="portfolio" >
-      <div class="main-section-title">PORTFOLIO</div>
+    <script>
+      function scrollAndReset() {
+        const element = document.getElementById("down");
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+        element.scrollTop = 0;
+      }
+    </script>
+    <div class="portfolio">
+      <div class="main-section-title">Some of the Projects Visuals</div>
       <span style="color: rgba(10, 81, 120, 0.822)"
         >Projects I was part of</span
       >
       <br />
       <div class="project-list">
-       <div class="project">
+        <div class="project">
           <img
             src="images/winclinq.jpg"
             class="logo-screenshot"
@@ -455,7 +741,8 @@ function scrollAndReset() {
           />
           <div class="project-text">
             <div class="project-text-title">WinClinq (Android)</div>
-            This is a Android real money quiz game, where users can bet on the options to win the quiz. In this project socket connection is used
+            This is a Android real money quiz game, where users can bet on the
+            options to win the quiz. In this project socket connection is used
             for real time quiz show.
           </div>
         </div>
@@ -468,7 +755,9 @@ function scrollAndReset() {
           />
           <div class="project-text">
             <div class="project-text-title">Carrom (Android)</div>
-           This is 2D carrom game. It has 2 modes play with human and play with AI. AI has 3 complexity levels so that use can practice with different levels of complexity..
+            This is 2D carrom game. It has 2 modes play with human and play with
+            AI. AI has 3 complexity levels so that use can practice with
+            different levels of complexity..
           </div>
         </div>
         <div class="project">
@@ -635,8 +924,8 @@ function scrollAndReset() {
           </div>
         </div>
       </div>
-    </div> 
-    -->
+    </div>
+
     <div class="contact-container">
       <div class="contact-header">
         <div class="main-section-title">CONTACTS</div>
